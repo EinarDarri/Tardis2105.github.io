@@ -38,17 +38,15 @@ body {
     display: grid;
     grid-template-areas:
         "topnav"
-        "foot"
         "haus"
         "content"
+        "foot"
 }
 .content {
     display: grid;
     grid-gap: 1em;
     grid-template-areas: 
-        "art1 art1 as2"
-        "as1  as1  as2"
-        ;
+        "as1 art1 as2";
     grid-template-columns: 1fr 3fr 1fr;
 
 }
@@ -59,11 +57,12 @@ body {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #ddd
+    background-color: #ddd;
 }
 .topmenu li {
     list-style-type: none;
+        
 }
-.haus, .container, .art1, .as1, .as2 {
+.haus, .container, .art1, .as1, .as2, .foot {
     border: 1px dotted blue 
 }
