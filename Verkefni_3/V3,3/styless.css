@@ -3,7 +3,7 @@
 }
 body {
     max-width: 60em; /*960px ~ 1080px - fartölvuskjar */
-    margin: 1em auto;
+    margin: 0em auto;
 }
 /* -- Grif Area -- */
 
@@ -37,16 +37,17 @@ body {
 .container {
     display: grid;
     grid-template-areas:
-        "topnav"
         "haus"
-        "content"
+        "topnav"
         "foot"
+        "content"
 }
 .content {
     display: grid;
     grid-gap: 1em;
     grid-template-areas: 
-        "as1 art1 as2";
+        "as1 art1 art1"
+        "as1 as2  as2";
     grid-template-columns: 1fr 3fr 1fr;
 
 }
