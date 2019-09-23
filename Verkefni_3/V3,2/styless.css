@@ -23,6 +23,13 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 25%)
 }
+/*-- Fonts --*/
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3 {
+font-family: 'Be Vietnam', sans-serif;
+}
 /*-- dálkar í main --*/
 .as1 {
     grid-area: as1;

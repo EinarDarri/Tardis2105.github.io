@@ -13,6 +13,7 @@ body {
 }
 .topnav {
     grid-area: topnav;
+    background-color: #ddd;
 }
 .content {
     grid-area: content;
@@ -22,6 +23,16 @@ body {
     grid-area: foot;
     display: grid;
     grid-template-columns: repeat(4, 25%)
+}
+/*-- fonts--*/
+.topmenu li,.foot {
+    font-family: 'Indie Flower', cursive;
+}
+.art1,.as1,.as2 {
+    font-family: 'Abel', sans-serif;
+}
+h1,h2,h3 {
+    font-family: 'Varela Round', sans-serif;
 }
 /*-- dálkar í main --*/
 .as1 {
@@ -37,16 +48,16 @@ body {
 .container {
     display: grid;
     grid-template-areas:
-        "topnav"
-        "haus"
-        "content"
-        "foot"
+        "haus topnav"
+        "haus foot"
+        "content content";
 }
 .content {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 5px;
     grid-template-areas: 
-        "as1 art1 as2";
+        "as1 art1 art1"
+        "as2 as2 as2";       ;
     grid-template-columns: 1fr 3fr 1fr;
 
 }

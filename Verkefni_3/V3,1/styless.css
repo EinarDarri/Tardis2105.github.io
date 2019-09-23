@@ -5,6 +5,9 @@ body {
     max-width: 60em; /*960px ~ 1080px - fartölvuskjar */
     margin: 0em auto;
 }
+h1,h2,h3 {
+    font-family: 'Big Shoulders Display', cursive;
+}
 /* -- Grif Area -- */
 
 .haus {
@@ -21,7 +24,22 @@ body {
     background-color: #ddd;
     grid-area: foot;
     display: grid;
-    grid-template-columns: repeat(4, 25%)
+    grid-template-columns: repeat(4, 25%);
+    font-family: 'Mansalva', cursive;
+}
+/*-- Color--*/
+body {
+    background-color: #66ffff;
+}
+.container {
+    color: #0000cc;
+}
+.content {
+background-color: #8cff8c
+}
+.topnav,.foot ,.haus,.topmenu a {
+    background-color:  #b24c66;
+    color:#fff;
 }
 /*-- dálkar í main --*/
 .as1 {
@@ -57,10 +75,10 @@ body {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #ddd;
 }
 .topmenu li {
     list-style-type: none;
+    font-family: 'Mansalva', cursive;
         
 }
 .haus, .container, .art1, .as1, .as2, .foot {
