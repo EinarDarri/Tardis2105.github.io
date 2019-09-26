@@ -37,13 +37,13 @@ body {
 .content {
 background-color: #8cff8c
 }
-.topnav,.foot,.haus,.topmenu a {
+.topnav,.foot,.haus {
     background-color:  #b24c66;
+}
+.topnav,.foot * ,.topmenu a {
     color:#fff;
 }
-.foot a {
-    color:#fff;
-}
+
 /*-- dálkar í main --*/
 .as1 {
     grid-area: as1;
