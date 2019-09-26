@@ -37,8 +37,11 @@ body {
 .content {
 background-color: #8cff8c
 }
-.topnav,.foot ,.haus,.topmenu a {
+.topnav,.foot,.haus,.topmenu a {
     background-color:  #b24c66;
+    color:#fff;
+}
+.foot a {
     color:#fff;
 }
 /*-- dálkar í main --*/
@@ -80,7 +83,3 @@ background-color: #8cff8c
     list-style-type: none;
     font-family: 'Mansalva', cursive;
 }
-.foot a {
-    color:#fff;
-}
-
