@@ -21,7 +21,6 @@ h1,h2,h3 {
     grid-area: content;
 }
 .foot{
-    background-color: #ddd;
     grid-area: foot;
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -29,19 +28,17 @@ h1,h2,h3 {
 }
 /*-- Color--*/
 body {
-    background-color: #66ffff;
+    background-color: #8CFFC6;
 }
-.container {
-    color: #0000cc;
-}
-.content {
-background-color: #8cff8c
+.content,.haus {
+background-color: #8cff8c;
+color: #0000cc;
 }
 .topnav,.foot,.haus {
-    background-color:  #b24c66;
+    background-color:  #66ffff;;
 }
 .topnav,.foot * ,.topmenu a {
-    color:#fff;
+    color:#0C0;
 }
 
 /*-- dálkar í main --*/

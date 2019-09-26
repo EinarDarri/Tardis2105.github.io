@@ -10,9 +10,9 @@ body {
    background-color: #F0F0F0;
 }
 .container {
- background-color: #1B08FF;
+ background-color:#FF5D0D;
 }
-.art1,.as1,.as2 {
+.content {
     color: #470619;
     background-color: #FFB428;
 }
@@ -96,4 +96,8 @@ h1,h2,h3 {
 }
 .foot {
     border-bottom:1px #FF5D0D solid;
+}
+.art1 {
+    border-left: #FF5D0D solid;
+    border-bottom: #FF5D0D solid;
 }
