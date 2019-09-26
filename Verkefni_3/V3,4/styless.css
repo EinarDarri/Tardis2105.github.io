@@ -18,7 +18,6 @@ body {
     grid-area: content;
 }
 .foot{
-    background-color: #ddd;
     grid-area: foot;
     display: grid;
     grid-template-columns: repeat(4, 25%)
@@ -65,12 +64,44 @@ h1,h2,h3 {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #ddd;
-}
+    }
 .topmenu li {
     list-style-type: none;
         
 }
-.haus, .container, .art1, .as1, .as2, .foot {
-    border: 1px dotted blue 
+/*-- Color --*/
+body {
+ background-color: #C6E9EB;  
+}
+.container {
+ color: #FFFFFF;
+}
+.haus{
+    background-color: #431CFF;
+    color: #FFF;
+}
+.content {
+    background-color: #1CA4EB;
+    color: #A8164E;
+}
+.topnav,.foot * ,.topmenu a {
+color: #FFFFFF;
+}
+.topmenu {
+    border-bottom: 2px #44FF16 double;
+    border-left: 2px #44FF16 double;
+    border-right: 2px #44FF16 double;
+    background: #1CA4EB;
+}
+.foot {
+    border-top: 2px #44FF16 double;
+    border-left: 2px #44FF16 double;
+    border-right: 2px #44FF16 double;
+    background: #1CA4EB;
+}
+.as1 {
+    border-top: 1px #44FF16 double;
+}
+.as2 {
+    border-left: 1px #44FF16 double;
 }

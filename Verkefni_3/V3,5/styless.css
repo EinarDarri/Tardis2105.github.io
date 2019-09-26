@@ -13,13 +13,11 @@ body {
 }
 .topnav {
     grid-area: topnav;
-    background-color: #ddd;
 }
 .content {
     grid-area: content;
 }
 .foot{
-    background-color: #ddd;
     grid-area: foot;
     display: grid;
     grid-template-columns: repeat(4, 25%)
@@ -68,12 +66,29 @@ h1,h2,h3 {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #ddd;
-}
-.topmenu li {
+} 
+    .topmenu li {
     list-style-type: none;
         
 }
-.haus, .container, .art1, .as1, .as2, .foot {
-    border: 1px dotted blue 
+/*-- Color --*/
+body {
+ background-color: #B536FF;  
+}
+.container {
+ color : #e8f7ff;
+}
+.content {
+background-color: #D536FF;
+}
+.topnav,.foot,.haus {
+background-color: #12BAFF ;    
+}
+.topnav,.foot * ,.topmenu a {
+color: #1F2BFF;
+}
+/*-- Border --*/
+.art1 {
+    border-left:2px #e680ff solid;
+    border-bottom:2px #e680ff solid;
 }

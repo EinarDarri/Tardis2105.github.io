@@ -5,6 +5,24 @@ body {
     max-width: 60em; /*960px ~ 1080px - fartölvuskjar */
     margin: 0em auto;
 }
+/*-- Color --*/
+body {
+   background-color: #F0F0F0;
+}
+.container {
+ background-color: #1B08FF;
+}
+.art1,.as1,.as2 {
+    color: #470619;
+    background-color: #FFB428;
+}
+.haus{
+    color: #FF5D0D;
+    background-color: #AD1A15;
+}
+.topnav,.foot * ,.topmenu a {
+color: #00FFFF;
+}
 /* -- Grif Area -- */
 
 .haus {
@@ -18,7 +36,6 @@ body {
     grid-area: content;
 }
 .foot{
-    background-color: #ddd;
     grid-area: foot;
     display: grid;
     grid-template-columns: repeat(4, 25%)
@@ -65,12 +82,18 @@ h1,h2,h3 {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #ddd;
+    
 }
 .topmenu li {
-    list-style-type: none;
-        
+    list-style-type: none; 
 }
-.haus, .container, .art1, .as1, .as2, .foot {
-    border: 1px dotted blue 
+.topmenu,.foot {
+    border-left: 1px #FF5D0D solid;
+    border-right:1px #FF5D0D solid;
+}
+.topmenu {
+    border-top:1px #FF5D0D solid;
+}
+.foot {
+    border-bottom:1px #FF5D0D solid;
 }
