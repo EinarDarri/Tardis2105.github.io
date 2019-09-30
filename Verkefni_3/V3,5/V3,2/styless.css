@@ -22,12 +22,30 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 25%)
 }
+/*-- Color --*/
+body {
+   background-color: #73B342;
+}
+.container {
+ background-color: #B2FF79;
+ color: #AA30B3;
+}
+.content {
+background-color: #C1FF91;
+}
+.haus{
+    background-color: #C1FF91;
+    color:#F678FF;
+}
+.topnav,.foot * ,.topmenu a  {
+color: #F678FF;
+}
 /*-- Fonts --*/
 p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h1,h2,h3 {
-    font-family: 'Ubuntu', sans-serif;
+font-family: 'Be Vietnam', sans-serif;
 }
 /*-- dálkar í main --*/
 .as1 {
@@ -43,8 +61,8 @@ h1,h2,h3 {
 .container {
     display: grid;
     grid-template-areas:
-        "foot"
         "topnav"
+        "foot"
         "haus"
         "content"
 }
@@ -53,7 +71,8 @@ h1,h2,h3 {
     grid-gap: 1em;
     grid-template-areas: 
         "art1 art1 as2"
-        "as1 as1 as2";
+        "as1  as1  as2"
+        ;
     grid-template-columns: 1fr 3fr 1fr;
 
 }
@@ -64,44 +83,11 @@ h1,h2,h3 {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    }
+}
 .topmenu li {
     list-style-type: none;
-        
 }
-/*-- Color --*/
-body {
- background-color: #C6E9EB;  
-}
-.container {
- color: #FFFFFF;
-}
-.haus{
-    background-color: #431CFF;
-    color: #FFF;
-}
-.content {
-    background-color: #1CA4EB;
-    color: #44FF16
-}
-.topnav,.foot * ,.topmenu a {
-color: #FFFFFF;
-}
-.topmenu {
-    border-bottom: 2px #44FF16 double;
-    border-left: 2px #44FF16 double;
-    border-right: 2px #44FF16 double;
-    background: #1CA4EB;
-}
-.foot {
-    border-top: 2px #44FF16 double;
-    border-left: 2px #44FF16 double;
-    border-right: 2px #44FF16 double;
-    background: #1CA4EB;
-}
-.as1 {
-    border-top: 1px #44FF16 double;
-}
-.as2 {
-    border-left: 1px #44FF16 double;
+.art1 {
+    border-right:2px #e680ff solid;
+    border-bottom:2px #e680ff solid;
 }
