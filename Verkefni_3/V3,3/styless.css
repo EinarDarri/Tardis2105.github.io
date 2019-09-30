@@ -74,7 +74,7 @@ h1,h2,h3 {
     grid-gap: 1em;
     grid-template-areas: 
         "as1 art1 art1"
-        "as1 as2  as2";
+        "as2 as2  as2";
     grid-template-columns: 1fr 3fr 1fr;
 
 }
@@ -103,4 +103,7 @@ h1,h2,h3 {
 .art1 {
     border-left: #FF5D0D solid;
     border-bottom: #FF5D0D solid;
+}
+.art1,.as1,.as2 {
+    padding: 1em;
 }

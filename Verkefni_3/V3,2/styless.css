@@ -64,9 +64,9 @@ font-family: 'Be Vietnam', sans-serif;
     display: grid;
     grid-template-areas:
         "topnav"
-        "foot"
         "haus"
         "content"
+        "foot"
 }
 .content {
     display: grid;
@@ -92,4 +92,7 @@ font-family: 'Be Vietnam', sans-serif;
 .art1 {
     border-right:2px #e680ff solid;
     border-bottom:2px #e680ff solid;
+}
+.art1,.as1,.as2 {
+    padding: 1em;
 }
