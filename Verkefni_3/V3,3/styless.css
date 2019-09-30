@@ -5,6 +5,9 @@ body {
     max-width: 60em; /*960px ~ 1080px - fartölvuskjar */
     margin: 0em auto;
 }
+.virkur {
+    font-weight: bold;
+}
 /*-- Color --*/
 body {
    background-color: #F0F0F0;
