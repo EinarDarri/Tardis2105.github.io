@@ -3,13 +3,24 @@
 body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
-    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    font: 400 1em/1.5 'Big Shoulders Text', cursive; /* samsett skipun: weight/height, size, family */
+    background-color:blue;
 }
 h1 {
     font-weight: 300;
     font-size: 2.5em;
 }
+blockquote {
+    background-color: rgba(255, 255, 255, .4);
+}
+.headcolor *,.footcolor *,.copy {
+    color : #fff;
+}
 
+.bgcolor {
+    background-color: burlywood;
+    padding: 1em;
+}
 .container {
     max-width: 60em; /*960px = fartölvur*/
     margin: 0 auto; /* top+bottom og left+right */
@@ -31,4 +42,7 @@ h1 {
 }
 .gap-4 {
     grid-gap: 4em
+}
+.copy {
+    text-align: center;
 }
