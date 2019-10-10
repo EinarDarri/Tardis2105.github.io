@@ -4,7 +4,7 @@ body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 'Big Shoulders Text', cursive; /* samsett skipun: weight/height, size, family */
-    background-color:blue;
+    background-color:darkblue;
 }
 h1 {
     font-weight: 300;
@@ -13,10 +13,61 @@ h1 {
 blockquote {
     background-color: rgba(255, 255, 255, .4);
 }
-.headcolor *,.footcolor *,.copy {
-    color : #fff;
+.innermenu  {
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+}
+.innermenu a {
+    background-color:darkblue;
+    color: rgb(240,202,152);
+    padding: .5em 1em;
+    text-decoration: none;
+    border-right: 1px white solid;
+}
+.innermenu a:last-child{
+    border: 0;
+}
+.innermenu a:active,.innermenu a:hover {
+    background-color: rgb(240,202,152);
+    color:darkblue;
+    padding: .5em;
+}
+.headcolor ,.footcolor ,.copy {
+    color:#fff
+} 
+.topnav a, .footnav a {
+    color:rgb(240,202,152);
+    text-decoration: none;
 }
 
+.topnav a:hover, .footnav a:hover {
+    color:darkblue;
+    background-color: rgb(240,202,152);
+    text-decoration: none;
+}
+.footnav {
+    padding: 0;
+}
+.footnav li {
+list-style-type: none;
+line-height: 2;
+}
+.topnav a{
+    padding-left:2em;
+}
+.headcolor p{
+    text-align: right;
+}
+.topnav {
+    margin-top: 3em;
+}
+.marginbottom{
+    margin: 0.5em 0 -1em 0 
+}
+/*.topbutt {
+
+}*/
 .bgcolor {
     background-color: burlywood;
     padding: 1em;
