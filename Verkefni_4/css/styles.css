@@ -65,9 +65,25 @@ line-height: 2;
 .marginbottom{
     margin: 0.5em 0 -1em 0 
 }
-/*.topbutt {
-
-}*/
+.topbutt {
+    display: block;
+    position: fixed;
+    font-size: 2em;
+    color:darkblue;
+    border: 2px solid darkblue;
+    right:2em;
+    text-decoration: none;
+    bottom: 2em;
+    background-color: rgb(240,202,152);
+    border-radius: 100%;
+    padding: 0 .45em;
+}
+.topbutt:hover {
+    color:rgb(240,202,152);
+    border: 2px solid rgb(240,202,152);
+    text-decoration: none;
+    background-color: darkblue;
+}
 .bgcolor {
     background-color: burlywood;
     padding: 1em;
