@@ -40,7 +40,9 @@ blockquote {
     color:rgb(240,202,152);
     text-decoration: none;
 }
-
+.topnav {
+    padding: 1.5em ;
+}
 .topnav a:hover, .footnav a:hover {
     color:darkblue;
     background-color: rgb(240,202,152);
