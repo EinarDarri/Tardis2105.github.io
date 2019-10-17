@@ -3,49 +3,28 @@
 body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
-    font: 400 1em/1.5 'Big Shoulders Text', cursive; /* samsett skipun: weight/height, size, family */
-    background-color:darkblue;
+    font: 400 1em/1.5 'Lobster Two', cursive; /* samsett skipun: weight/height, size, family */
+    background-color:#FF1AA8;
 }
 h1 {
     font-weight: 300;
     font-size: 2.5em;
 }
 blockquote {
-    background-color: rgba(255, 255, 255, .4);
-}
-.innermenu  {
-    display: flex;
-    flex-flow: row;
-    justify-content: center; 
-}
-.innermenu a {
-    background-color:darkblue;
-    color: rgb(240,202,152);
-    padding: .5em 1em;
-    text-decoration: none;
-    border-right: 1px white solid;
-}
-.innermenu a:last-child{
-    border: 0;
-}
-.innermenu a:active,.innermenu a:hover {
-    background-color: rgb(240,202,152);
-    color:darkblue;
-    padding: .5em;
+    background-color: rgba(255, 255, 255, .7    );
 }
 .headcolor ,.footcolor ,.copy {
     color:#fff
 } 
 .topnav a, .footnav a {
-    color:rgb(240,202,152);
+    color:#FFF300;
     text-decoration: none;
 }
 .topnav {
     padding: 1.5em ;
 }
 .topnav a:hover, .footnav a:hover {
-    color:darkblue;
-    background-color: rgb(240,202,152);
+    color:#0BE8EB;
     text-decoration: none;
 }
 .footnav {
@@ -59,7 +38,7 @@ line-height: 2;
     padding-left:2em;
 }
 .headcolor p{
-    text-align: right;
+    text-align: right;  
 }
 .topnav {
     margin-top: 3em;
@@ -67,27 +46,8 @@ line-height: 2;
 .marginbottom{
     margin: 0.5em 0 -1em 0 
 }
-.topbutt {
-    display: block;
-    position: fixed;
-    font-size: 2em;
-    color:darkblue;
-    border: 2px solid darkblue;
-    right:2em;
-    text-decoration: none;
-    bottom: 2em;
-    background-color: rgb(240,202,152);
-    border-radius: 100%;
-    padding: 0 .45em;
-}
-.topbutt:hover {
-    color:rgb(240,202,152);
-    border: 2px solid rgb(240,202,152);
-    text-decoration: none;
-    background-color: darkblue;
-}
 .bgcolor {
-    background-color: burlywood;
+    background-color: #A7EBDC;
     padding: 1em;
 }
 .container {
@@ -100,14 +60,9 @@ line-height: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .col-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-.col-4 {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
 }
 .gap-4 {
     grid-gap: 4em
