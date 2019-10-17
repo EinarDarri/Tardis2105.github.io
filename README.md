@@ -10,4 +10,4 @@ VEÞ1 vefþróun
   *. [Verkefni 2.4](Verkefni_2/verkefni-24)
   
  3.[Verkefni 3](Verkefni_3)
- 4. [Verkefni_4](Verkefni_4)
+ 4.[Verkefni_4](Verkefni_4)
