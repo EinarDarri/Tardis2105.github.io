@@ -18,6 +18,9 @@ blockquote {
     flex-flow: row;
     justify-content: center; 
 }
+html {
+    scroll-behavior: smooth;
+}
 .innermenu a {
     background-color:darkblue;
     color: rgb(240,202,152);
