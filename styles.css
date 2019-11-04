@@ -4,27 +4,24 @@ body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 'Lobster Two', cursive; /* samsett skipun: weight/height, size, family */
-    background-color:#FF1AA8;
+    background-color:#1e3799;
 }
 h1 {
     font-weight: 300;
     font-size: 2.5em;
 }
-blockquote {
-    background-color: rgba(255, 255, 255, .7    );
-}
 .headcolor ,.footcolor ,.copy {
-    color:#fff
+    color:#f0932b
 } 
 .topnav a, .footnav a {
-    color:#FFF300;
+    color:#ffeaa7;
     text-decoration: none;
 }
 .topnav {
     padding: 1.5em ;
 }
 .topnav a:hover, .footnav a:hover {
-    color:#0BE8EB;
+    color:#45aaf2;
     text-decoration: none;
 }
 .footnav {
@@ -47,7 +44,8 @@ line-height: 2;
     margin: 0.5em 0 -1em 0 
 }
 .bgcolor {
-    background-color: #A7EBDC;
+    background-color: #a55eea;
+    color:#f5f6fa ;
     padding: 1em;
 }
 .container {
