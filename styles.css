@@ -1,10 +1,14 @@
-* { box-sizing: border-box }
+* {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+}
 
 body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 'Lobster Two', cursive; /* samsett skipun: weight/height, size, family */
-    background-color:#1e3799;
+    background-color:#4c30c6;
 }
 h1 {
     font-weight: 300;
@@ -19,6 +23,10 @@ h1 {
 }
 .topnav {
     padding: 1.5em ;
+}
+img{
+    max-width:100%;
+    height: auto;
 }
 .topnav a:hover, .footnav a:hover {
     color:#45aaf2;
