@@ -75,19 +75,19 @@ h1,h2,h3 {
 }
 /*-- Color --*/
 body {
- background-color: #B536FF;  
+ background-color: #e84393;  
 }
 .container {
  color : #e8f7ff;
 }
 .content {
-background-color: #D536FF;
+background-color: #fd79a8;
 }
 .topnav,.foot,.haus {
 background-color: #12BAFF ;    
 }
 .topnav,.foot * ,.topmenu a {
-color: #1F2BFF;
+color: #2d3436;
 }
 /*-- Border --*/
 .art1 {

@@ -73,39 +73,31 @@ h1,h2,h3 {
 }
 /*-- Color --*/
 body {
- background-color: #C6E9EB;  
+ background-color: #1B1464;  
 }
 .container {
  color: #FFFFFF;
 }
 .haus{
-    background-color: #431CFF;
+    background-color: #1B1464;
     color: #FFF;
 }
 .content {
-    background-color: #1CA4EB;
-    color: #44FF16
+    background-color: #0652DD;
+    color: #fff
 }
 .topnav,.foot * ,.topmenu a {
 color: #FFFFFF;
 }
-.topmenu {
-    border-bottom: 2px #44FF16 double;
-    border-left: 2px #44FF16 double;
-    border-right: 2px #44FF16 double;
-    background: #1CA4EB;
-}
 .foot {
-    border-top: 2px #44FF16 double;
-    border-left: 2px #44FF16 double;
-    border-right: 2px #44FF16 double;
-    background: #1CA4EB;
+    border-top: 2px #fff double;
+    background: #0652DD;
 }
 .as1 {
-    border-top: 1px #44FF16 double;
+    border-top: 1px #fff double;
 }
 .as2 {
-    border-left: 1px #44FF16 double;
+    border-left: 1px #fff double;
 }
 .art1,.as1,.as2 {
     padding: 1em;

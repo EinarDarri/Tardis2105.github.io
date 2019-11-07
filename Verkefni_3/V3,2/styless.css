@@ -25,26 +25,24 @@ body {
     grid-template-columns: repeat(4, 25%)
 }
 /*-- Color --*/
-body {
-   background-color: #73B342;
-}
+
 .container {
- background-color: #B2FF79;
- color: #AA30B3;
+ background-color: #1e272e;
+ color: #4bcffa;
 }
 .content {
-background-color: #C1FF91;
+background-color: #485460;
 }
 .haus{
-    background-color: #C1FF91;
-    color:#F678FF;
+    background-color: #485460;
+    color:#4bcffa;
 }
 .topnav,.foot * ,.topmenu a  {
-color: #F678FF;
+color: #4bcffa;
 }
 /*-- Fonts --*/
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 h1,h2,h3 {
 font-family: 'Be Vietnam', sans-serif;
@@ -90,8 +88,8 @@ font-family: 'Be Vietnam', sans-serif;
     list-style-type: none;
 }
 .art1 {
-    border-right:2px #e680ff solid;
-    border-bottom:2px #e680ff solid;
+    border-right:2px #808e9b solid;
+    border-bottom:2px #808e9b solid;
 }
 .art1,.as1,.as2 {
     padding: 1em;

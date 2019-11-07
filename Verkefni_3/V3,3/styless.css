@@ -9,22 +9,20 @@ body {
     font-weight: bold;
 }
 /*-- Color --*/
-body {
-   background-color: #F0F0F0;
-}
+
 .container {
- background-color:#FF5D0D;
+ background-color:#fa8231;
 }
 .content {
     color: #470619;
     background-color: #FFB428;
 }
 .haus{
-    color: #FF5D0D;
-    background-color: #AD1A15;
+    color: #000;
+    background-color: #fa8231;
 }
 .topnav,.foot * ,.topmenu a {
-color: #00FFFF;
+color: #000;
 }
 /* -- Grif Area -- */
 
@@ -66,8 +64,8 @@ h1,h2,h3 {
     grid-template-areas:
         "haus"
         "topnav"
-        "foot"
         "content"
+        "foot"
 }
 .content {
     display: grid;
@@ -91,18 +89,18 @@ h1,h2,h3 {
     list-style-type: none; 
 }
 .topmenu,.foot {
-    border-left: 1px #FF5D0D solid;
-    border-right:1px #FF5D0D solid;
+    border-left: 1px #fa8231 solid;
+    border-right:1px #fa8231 solid;
 }
 .topmenu {
-    border-top:1px #FF5D0D solid;
+    border-top:1px #fa8231 solid;
 }
 .foot {
-    border-bottom:1px #FF5D0D solid;
+    border-bottom:1px #fa8231 solid;
 }
 .art1 {
-    border-left: #FF5D0D solid;
-    border-bottom: #FF5D0D solid;
+    border-left: #fa8231 solid;
+    border-bottom: #fa8231 solid;
 }
 .art1,.as1,.as2 {
     padding: 1em;

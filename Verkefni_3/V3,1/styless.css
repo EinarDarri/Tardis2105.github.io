@@ -6,7 +6,7 @@ body {
     margin: 0em auto;
 }
 h1,h2,h3 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Verdana', cursive;
 }
 /* -- Grif Area -- */
 
@@ -28,17 +28,19 @@ h1,h2,h3 {
 }
 /*-- Color--*/
 body {
-    background-color: #8CFFC6;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content,.haus {
-background-color: #8cff8c;
-color: #0000cc;
+background-color: #e84118;
+color: #192a56;
 }
+p,h3,h2,blockquote {color:#fff;}
 .topnav,.foot,.haus {
-    background-color:  #66ffff;;
+    background-color:  #fff;
 }
 .topnav,.foot * ,.topmenu a {
-    color:#0C0;
+    color:#192a56;
 }
 
 /*-- dálkar í main --*/
