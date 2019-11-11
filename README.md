@@ -12,3 +12,4 @@ VEÞ1 vefþróun
  3. [Verkefni 3](Verkefni_3)
  4. [Verkefni_4](Verkefni_4)
  5. [Verkefni 5](Verkefni_5)
+ [Æfingar](Æfingar)
