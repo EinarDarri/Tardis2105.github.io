@@ -29,3 +29,8 @@ li {
     display: inline-block;
     border: 3px dashed red;
 }
+.link * {
+    border: none;
+    text-decoration: none;
+    color: #05f;
+}

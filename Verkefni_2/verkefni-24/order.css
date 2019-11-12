@@ -45,4 +45,8 @@ div {
 	font-size: 1.2em;
 	height: 5em;
 }
-
+.link * {
+    border: none;
+    text-decoration: none;
+    color: #05f;
+}

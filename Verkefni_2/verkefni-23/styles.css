@@ -35,3 +35,8 @@ body {
 .group .after {
     clear: both;
 }
+.link * {
+    border: none;
+    text-decoration: none;
+    color: #05f;
+}
