@@ -1,5 +1,6 @@
 *, *:before, *:after {
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  color: #f5f6fa;
 }
 /*heimild: https://gridbyexample.com/examples/example13/ */
 
@@ -66,26 +67,27 @@ main, .content {
  
 /* ====== Base litir + padding ====== */
 
-body {
-line-height: 1.5em;
+body{
+height: 1.5em;
 }
 .topnav {
 background: #1c2d1c; 
 }
 header {
-background: tomato; 
+background: #192a56; 
 }
 footer {
-background: lightgreen; 
+background: #192a56; 
 }
 .midja {
-background: skyblue; 
+background: #273c75;
+border:#2f3640 solid; 
 }
 .vinstri {
-background: gold; 
+background: #273c75; 
 }
 .haegri {
-background: pink; 
+background: #273c75; 
 }
 
 header,
@@ -118,7 +120,7 @@ text-align: justify;
 Efnisyfirlit (mobile)
 ======================================== */
 .topnav ul{
-background: #1c2d1c; 
+background: #273c75; 
 }
 .topnav input {
 display: none;
@@ -129,19 +131,18 @@ display: block;
 /* position: fixed; */
 padding: 0;
 margin: 0;
-list-style: none; 
-
+list-style: none;
 }
 .topmenu li {
 border: 0;
-border-bottom: 1px solid lime; 
+border-bottom: 1px solid #192a56 
 padding: 0;
 margin:0;
 }
 .topmenu li {
 border: 0;
 padding: 0;
-border-bottom: 1px solid lime; 
+border-bottom: 1px solid #192a56; 
 }
 .topmenu a {
 display: block;     /* ath! */
@@ -153,8 +154,8 @@ padding: .4em 1em;
 .topmenu a:hover,
 .topmenu a:active,
 .virkur {
-color: black !important;
-background-color: lime;
+color:  !important;
+background-color: #40739e;
 }
 
 /* =======================================
@@ -172,10 +173,6 @@ img {
 display: block; /* losna við inline "whitespace" */
 }
 
-figure {
-margin:0;   /* ath! í normalize er sjálsfgefið margin 40px. */
-border: 1px solid orange;
-}
 .myndabox {
 width: 162px; /* ath! klasinn er með fasta breidd*/
 }
@@ -190,6 +187,7 @@ Viðmið - breakpoints 30em = 480px +
     grid-template-areas:
     "header"
     "main"
+
     "footer"
     "topnav"
     ;
@@ -242,6 +240,7 @@ Viðmið - breakpoints 37.5em = 600px +
     "topnav"
     "header"
     "main"
+
     "footer"
     ;
       /* skipulag dálka kemur hér */
@@ -289,6 +288,7 @@ Viðmið - breakpoints 48em = 760px +
     "topnav"
     "header"
     "main"
+
     "footer"
     ;
       /* skipulag dálka kemur hér */
