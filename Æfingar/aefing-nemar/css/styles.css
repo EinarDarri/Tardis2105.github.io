@@ -11,9 +11,6 @@ grid-area: topnav;
 header {
 grid-area: header;
 }
-.content {
-  grid-area:content;
-}
 main {
 grid-area: main; 
 }
@@ -30,7 +27,18 @@ grid-area: vinstri;
 .haegri {
 grid-area: haegri; 
 }
-
+.Mynd1{
+  grid-area: Mynd1;
+}
+.Mynd2{
+  grid-area: Mynd2;
+}
+.Mynd3{
+  grid-area: Mynd3;
+}
+.Mynd4{
+  grid-area: Mynd4;
+}
 /* ====== GRID Template Areas ===== */
 
 body {
@@ -45,7 +53,7 @@ grid-template-areas:
   /* skipulag dálka kemur hér */
 }
 
-main {
+main, .content {
   display: grid; /* grid erfist aðeins til barna (child element only) */
   grid-gap: 0;
   grid-template-areas:
@@ -197,8 +205,29 @@ Viðmið - breakpoints 30em = 480px +
       "haegri"
       ;
     /* skipulag dálka kemur hér */
-    }    
+    }
+    .content{
+      display: grid; /* grid erfist aðeins til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+      "midja"
+      "vinstri"
+      "haegri"
+      ;
+    }
+    .myndabox{
+      display: grid;
+      grid-gap: 0;
+      grid-template-areas: 
+      "Mynd1"
+      "Mynd2"
+      "Mynd3"
+      "Mynd4"
+      ;
+      }
 }
+
+
 
 /*  ========================================
 Viðmið - breakpoints 37.5em = 600px + 
@@ -227,7 +256,25 @@ Viðmið - breakpoints 37.5em = 600px +
       ;
     /* skipulag dálka kemur hér */
     }
-     
+    .content{
+      display: grid; /* grid erfist aðeins til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+      "haegri midja"
+      "vinstri midja"
+      ;
+    }
+    .myndabox{
+      display: grid;
+      grid-gap: 0;
+      grid-template-areas: 
+      "Mynd1 Mynd2"
+      "Mynd3 Mynd4"
+      ;
+    }
+    .myndabox {
+      width: 324px; /* ath! klasinn er með fasta breidd*/
+      }
 }
 /* ========================================
 Viðmið - breakpoints 48em = 760px +
@@ -255,7 +302,22 @@ Viðmið - breakpoints 48em = 760px +
       ;
     /* skipulag dálka kemur hér */
     }
-     
+    .content{
+      display: grid; /* grid erfist aðeins til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+        "vinstri midja haegri";
+    }
+    .myndabox{
+      display: grid;
+      grid-gap: 0;
+      grid-template-areas: 
+      "Mynd1 Mynd2 Mynd3 Mynd4"
+      ;
+    }
+    .myndabox {
+      width: 648px; /* ath! klasinn er með fasta breidd*/
+      }
 }
 
 /* ========================================
