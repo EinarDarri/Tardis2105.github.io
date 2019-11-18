@@ -133,17 +133,14 @@ display: block;
 padding: 0;
 margin: 0;
 list-style: none;
+display: flex;
+flex-flow: row;
+justify-content: center;
 }
+
 .topmenu li {
-border: 0;
-border-bottom: 1px solid #192a56 
 padding: 0;
-margin:0;
-}
-.topmenu li {
-border: 0;
-padding: 0;
-border-bottom: 1px solid #192a56; 
+border: 2px solid #192a56; 
 }
 .topmenu a {
 display: block;     /* ath! */
