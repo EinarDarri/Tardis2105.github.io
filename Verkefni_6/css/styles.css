@@ -133,9 +133,6 @@ display: block;
 padding: 0;
 margin: 0;
 list-style: none;
-display: flex;
-flex-flow: row;
-justify-content: center;
 }
 
 .topmenu li {
@@ -155,6 +152,7 @@ padding: .4em 1em;
 color:black !important;
 background-color: #40739e;
 }
+
 
 /* =======================================
 *  myndvinnsla  *
@@ -220,8 +218,14 @@ Viðmið - breakpoints 30em = 480px +
       "Mynd3"
       "Mynd4"
       ;
+    }
+    .topmenu{
+      display: flex;
+      flex-flow: row;
+      justify-content:center ;
       }
 }
+
 
 
 
