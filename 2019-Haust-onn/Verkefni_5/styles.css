@@ -1,0 +1,77 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 'Corben', cursive;; /* samsett skipun: weight/height, size, family */
+    background-color:#2c2c54;
+    color: #fff;
+}
+.Minecraft {
+max-width: 80px;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.headcolor ,.footcolor ,.copy {
+    color:#F0F0F0;
+} 
+.topnav a, .footnav a {
+    color:#ff5252;
+    text-decoration: none;
+}
+.topnav {
+    padding: 1.5em ;
+}
+.topnav a:hover, .footnav a:hover {
+    color:#34ace0;
+    text-decoration: none;
+}
+.footnav {
+    padding: 0;
+}
+.footnav li {
+list-style-type: none;
+line-height: 2;
+}
+.topnav a{
+    padding-left:2em;
+}
+.headcolor p{
+    text-align: right;  
+}
+.topnav {
+    margin-top: 3em;
+}
+.marginbottom{
+    margin: 0.5em 0 -1em 0 
+}
+.bgcolor {
+    background-color: #40407a;
+    padding: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.copy {
+    text-align: center;
+}
